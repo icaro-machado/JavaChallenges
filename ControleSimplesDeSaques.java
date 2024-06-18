@@ -9,7 +9,7 @@ public class ControleSimplesDeSaques {
         double limiteDiario = scanner.nextDouble();
 
         // Loop for para iterar sobre os saques
-        for (int i = 1; ; i++) {
+        for (@SuppressWarnings("unused") int i = 1; ; i++) {
 
             double valorSaque = scanner.nextDouble();
 
